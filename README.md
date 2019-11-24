@@ -1,5 +1,5 @@
 # InfraAWS
-Projeto da materia computacao em nuvem que visa subir uma arquitetura atraves de scripts na AWS
+Projeto da materia computacao em nuvem que visa subir uma arquitetura atraves de scripts na AWS. O script é 100% automatizado, ou seja, se voce quiser rodar eles varias vezes seguidas ele excluira tudo criado anteriormente e recriara.
 
 # Tutorial
 
