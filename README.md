@@ -3,7 +3,7 @@ Projeto da materia computacao em nuvem que visa subir uma arquitetura atraves de
 
 # Tutorial
 
-Adicione no seu .bashrc duas variavei, sao elas:
+Adicione no seu .bashrc as seguintes variaveis:
 
 export acessKeyCloud="<Ponha sua key aqui>" <br/><br/>
 export acessSecretKeyCloud="<Ponha sua secret key aqui>" <br/><br/>
