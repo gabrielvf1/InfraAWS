@@ -5,9 +5,9 @@ Projeto da materia computacao em nuvem que visa subir uma arquitetura atraves de
 
 Adicione no seu .bashrc duas variavei, sao elas:
 
-export acessKeyCloud="<Ponha sua key aqui>" \n
-export acessSecretKeyCloud="<Ponha sua secret key aqui>" \n
-export senhaDB="<Ponha a senha do banco de dados da RDS aqui>" \n
+export acessKeyCloud="<Ponha sua key aqui>" <br/><br/>
+export acessSecretKeyCloud="<Ponha sua secret key aqui>" <br/><br/>
+export senhaDB="<Ponha a senha do banco de dados da RDS aqui>" <br/><br/>
 
 Enfim rode o script.
 
