@@ -18,3 +18,5 @@ Os arquivos de inicializacao dos webservers desse projeto estao em dois gits dif
 https://github.com/gabrielvf1/Cloud2019
 e
 https://github.com/gabrielvf1/Cloud2019-RDS.
+
+Desenvolvido por Gabriel Francato
