@@ -330,7 +330,7 @@ class CriandoWebserver():
 
     def criandoLoadBalancer(self, securityId, SubnetsId):
         print("Criando Load Balancer")
-        self.loadBalancer.create_load_balancer(
+        resposta = self.loadBalancer.create_load_balancer(
             Name=self.nomeLB,
             Subnets=SubnetsId,
             SecurityGroups = [securityId],
@@ -344,7 +344,10 @@ class CriandoWebserver():
                     'Value': nomeDaMaquina
                 }]
         )
+        endereco = (resposta['LoadBalancers'][0]['DNSName'])
         print("Esperando Load Balancer ficar Ativo")
+        with open("DNSLoadBalancer.txt", 'w+') as file:
+            file.write('DNSLoadBalancer: ' + 'http://' + endereco.lower())
         waiter = self.loadBalancer.get_waiter('load_balancer_available')
         waiter.wait(Names=[self.nomeLB,])
         print("Load Balancer Ativo")
